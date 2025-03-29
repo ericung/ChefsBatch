@@ -41,4 +41,4 @@ The ChefsBatch platform consists of several key components:
    ```
 
 3. **Configure Environment Variables**
-   Create a `appsettings.json` file in the root directory and
+   Create a `appsettings.json` file in the root directory
