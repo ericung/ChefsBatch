@@ -10,7 +10,7 @@ namespace ChefsBatch.Models
         public double Rating { get; set; }
         public int Experience { get; set; }
         public string Bio { get; set; }
-        public List<MealModel> Menu { get; set; }
+        public List<DishModel> Menu { get; set; }
         public string Availability { get; set; }
         public string ContactInfo { get; set; }
         public string ProfilePictureUrl { get; set; }

@@ -10,6 +10,6 @@ namespace ChefsBatch.Repository
         {
         }
 
-        public DbSet<Chef> Chefs { get; set; }
+        public DbSet<ChefModel> Chefs { get; set; }
     }
 }

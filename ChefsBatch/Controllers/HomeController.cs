@@ -25,6 +25,20 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Chef()
+    {
+        ChefModel chefModel = new ChefModel();
+
+        return View(chefModel);
+    }
+
+    public IActionResult Dish()
+    {
+        DishModel dishModel = new DishModel();
+
+        return View(dishModel);
+    }
+
     [AllowAnonymous]
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

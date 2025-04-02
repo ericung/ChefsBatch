@@ -2,7 +2,7 @@
 
 namespace ChefsBatch.Models
 {
-    public class MealModel
+    public class DishModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
